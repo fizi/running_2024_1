@@ -1,0 +1,112 @@
+<!-- place for Featurebox or any masthead solution -->
+<div id="home-page">
+  <div class="home-image">
+    
+    <!--- Optional custom header template controlled by theme_shortcodes -->
+    <div id="site-navigation">
+      <div class="container">
+        <!--- Optional custom header template controlled by theme_shortcodes -->
+        {---HEADER---}
+      </div>
+    </div>
+  </div>
+
+<!-- Page Content -->
+
+{ALERTS}
+{SETSTYLE=front-side} <!-- Example -->
+{---}
+
+  <div class="section-1">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3">
+          {SETSTYLE=home-section-1}
+          {MENU=100}
+        </div>
+        <div class="col-lg-3">
+          {SETSTYLE=home-section-1}
+          {MENU=101}
+        </div>
+        <div class="col-lg-3">
+          {SETSTYLE=home-section-1}
+          {MENU=102}
+        </div>
+        <div class="col-lg-3">
+          {SETSTYLE=home-section-1}
+          {MENU=103}
+        </div> 
+      </div>
+      <div id="wmessage" class="py-5">
+        {SETSTYLE=wmessage}
+        {WMESSAGE}
+      </div>
+    </div>
+  </div>
+  <div class="section-2">
+    <div class="container">
+      <div class="rectangle position-absolute end-0 me-4"></div>
+      <div class="row">
+        <div class="offset-lg-1 col-lg-11">
+          {SETSTYLE=home-section-2}
+          {MENU=104}
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="section-3">
+    <div class="container">
+      <div class="home-news-latest">
+        <!-- Latest 5 news -->
+        {BOOTSTRAP_GRID_NEWS_HOME_LATEST}         
+      </div>
+    </div>
+  </div>
+  <div id='section-portfolio' class='portfolio d-flex justify-content-between  align-items-center mb-3 py-5'>
+    <div class="bar"></div>
+    <div class="container"> 
+      {SETSTYLE=portfolio}
+      {SETIMAGE: w=800&h=800&crop=1}
+	  {GALLERY_PORTFOLIO: placeholder=1&&category=3&limit=4}
+    </div>
+    <div class="bar"></div> 
+  </div>
+  <div class="section-contact py-5">
+    <div class="container">
+      <div class="home-contact-image position-absolute end-0 me-4">
+        <img class="img-fluid object-fit-cover top-50 start-50" src="{THEME}images/run-29.jpg" />
+      </div> 
+      <div class="row">
+        <div class="offset-lg-3 col-lg-8">
+          {SETSTYLE=home-contact}
+          {MENU=contact}
+          {MENU=105}
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="section-4 py-5">
+    <div class="background-image"></div>
+    <div class="container">
+      <div class="section-4-caption text-center">{LAN=LAN_THEME_102}</div>
+      {THEME_SUBSCRIBE}
+      {SETSTYLE=home-section-4}
+      {MENU=106}
+    </div>
+  </div>
+  <div class="section-social py-5">
+    <div class="container">
+      <div class="section-social-caption text-center">{LAN=LAN_THEME_500}</div>
+      <div class="row">
+        {XURL_ICONS}
+      </div>
+    </div>
+  </div>
+</div>
+
+
+   
+   
+   
+   
+   

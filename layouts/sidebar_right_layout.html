@@ -1,0 +1,51 @@
+
+<!-- Magic Shortcodes - proof of concept -->
+<!-- Enabled Debug in 'basic' mode to view all available types -->
+
+<!-- Page Content -->
+<div class="main_content">
+  <div class="page-title">
+    <div id="site-navigation">
+      <div class="container">
+        <!--- Optional custom header template controlled by theme_shortcodes -->
+        {---HEADER---}
+      </div>
+    </div>
+    <div class="container">
+      <!-- Page Heading/Breadcrumbs -->
+      <div class="content-pagename d-flex justify-content-center py-5">
+        <span>{---CAPTION---}</span>
+      </div>
+      <div class="content-breadcrumb d-flex justify-content-center">
+        <span>{---BREADCRUMB---}</span>
+      </div>
+    </div>
+  </div>
+  <div class="page-content">    
+    <div class="container">
+      <div class="row">
+        <!-- Blog Entries Column -->
+        <div class="col-lg-8">
+	      {ALERTS}
+		  {SETSTYLE=main}
+{---}
+        </div>
+	    <div class="col-lg-4 mb-3 sidebar">
+          <div class="sidebar-social-icons text-center">
+            {XURL_ICONS}
+          </div>
+	      <!-- Standard sidebar menu -->
+		  <div class="sidebar-menu"> 
+		    {SETSTYLE=side-menu}
+		    {MENU=1} 
+		    {MENU=2} 
+		  </div>
+	    </div>
+        <!-- /.row -->
+      </div>
+      <!-- /.container -->
+    </div>
+  </div>
+</div>
+
+ 
